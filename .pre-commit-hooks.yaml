@@ -3,3 +3,4 @@
     description: generate a LICENSES file from all pip installed packages via pip-licenses
     entry: pip-licenses --format=plain-vertical --with-license-file --output-file=LICENSES --no-license-path
     always-run: true
+    language: python
